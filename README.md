@@ -2,9 +2,6 @@
 
 ### Steps to configure and build checkbox.io and iTrust application:  
 
-- Clone the github repository using `git clone https://github.ncsu.edu/cmachan/CSC519_SPRING2018PROJECT.git` command. 
-- cd into CSC519_SPRING2018PROJECT directory using `cd CSC519_SPRING2018PROJECT`
-- `git checkout Milestone-1` (This is done so that we can work on the remote branch 'CSC519_CM' instead of 'master' branch
 - Change to Milestone1 folder --> `cd Milestone1/` 
 - Edit the [id_rsa](./roles/SetupJenkins/tasks/id_rsa) file present in the `Milestone1/roles/SetupJenkins/tasks` folder with your gitHub private ssh key
 - Change the Hostname and host parameters of the [ssh_config.j2](./roles/SetupJenkins/templates/ssh_config.j2) template file in `Milestone1/roles/SetupJenkins/templates` folder with your Github credentials
